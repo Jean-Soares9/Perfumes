@@ -3,20 +3,22 @@
    padding: 0;
 }
 
-a{text-decoration: none;
-color: #000000;}
+a {text-decoration: none;
+color: #ceaf00;
+font-family: 'Lobster', cursive;
+} 
 
 body {
-   font-family: 'Coming Soon', cursive;
-   background-color: #ffffff;
-   color: #000000;
+   font-family: 'Lobster', cursive;
+   background-color: #020202ce;
+   color: #cab603;
 }
 
 .logo h1 {
-   color: #000000;
+   color: #cfb001;
    font-size: 42px;
    font-weight: 800;
-   font-family: 'Bad Script', cursive;
+   font-family: 'Lobster', cursive;
 }
 
 h1 {
@@ -34,9 +36,9 @@ h1 {
    align-items: center;
    justify-content: center;
    flex-direction: column;
-   height: 60vh;
+   height: 70vh;
    background-size: cover;
-   background-image: url(img/hero_background.jpg);
+   background-image: url(img/632672.jpg);
    
    background-position: center
 }
@@ -56,7 +58,7 @@ h2 {
 
 .card {
    text-align: center;
-   box-shadow: 2px 5px 8px 0 rgba(0, 0, 0, 0.2);
+   box-shadow: 2px 5px 8px 0 rgba(204, 167, 1, 0.664);
    transition: 0.3s;
    padding: 15px 15px;
    width: 20vw;
@@ -67,24 +69,24 @@ h2 {
 }
 
 .card .foto1 {
-   background-image: url(./img/aleksandra-tanasiienko-0y6eMd8vevA-unsplash.jpg);
+   background-image: url(./img/12946938_767859613349869_949290536_o.jpg);
    background-size: cover;
    background-position: center;
-   padding: 80px 40px;
+   padding: 90px 40px;
 }
 
 .card .foto2 {
-   background-image: url(./img/brooke-lark-GTMGG-xvxdU-unsplash\(1\).jpg);
+   background-image: url(./img/AdobeStock_195178815-compressed-1140x760.jpg);
    background-size: cover;
    background-position: center;
-   padding: 80px 40px;
+   padding: 90px 40px;
 }
 
 .card .foto3 {
-   background-image: url(./img/brooke-lark-HjWzkqW1dgI-unsplash.jpg);
+   background-image: url(./img/125-thumb.jpg);
    background-size: cover;
    background-position: center;
-   padding: 80px 40px;
+   padding: 90px 40px;
 }
 
 
@@ -93,10 +95,10 @@ h2 {
 }
 
 nav {
-   background-color: #ffffff;
+   background-color: #75757500;
    height: 10vh;
    padding: 16px 0px;
-   color: #000000;
+   color: #d3a200;
 position: sticky;
 top: 0px;
    font-size: 22px;
@@ -131,30 +133,31 @@ nav li {
 .footer{
    margin-top: 80px;
    padding: 30px;
-   background-color: #00000080;
+   background-color: #c7b30080;
 }
 
 .footer ul{
    text-decoration: none;
+   color: #030303;
 }
 
-.card .macarronada {
-   background-image: url(./img/pasta.jpg);
+.card .Eudora {
+   background-image: url(./img/page_1.jpg);
    background-size: cover;
    background-position: center;
-   padding: 80px 40px;
+   padding: 225px 40px;
 }
 
-.card .sopa {
-   background-image: url(./img/soup.jpg);
+.card .Natura {
+   background-image: url(./img/1-e1645032981634.png);
    background-size: cover;
    background-position: center;
-   padding: 80px 40px;
+   padding: 225px 40px;
 }
 
-.card .pao {
-   background-image: url(./img/bread.jpg);
+.card .Importados {
+   background-image: url(./img/design-de-luxo-dourado-de-logotipo-de-perfume_23-2148458761.jpg);
    background-size: cover;
    background-position: center;
-   padding: 80px 40px;
+   padding: 225px 40px;
 }
